@@ -56,7 +56,6 @@ export const addXeMayAPI = createAsyncThunk(
   async (objXeMay, thunkAPI) => {
     console.log(objXeMay);
     try {
-      // Gửi yêu cầu DELETE đến API để xóa xemay
       const response = await fetch(api_url, {
         method: 'POST',
         headers: {

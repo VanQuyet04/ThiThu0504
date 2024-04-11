@@ -8,6 +8,7 @@ const App = () => {
   return (
     <Provider store={store} >
       <XeMayScreen />
+      
     </Provider>
   )
 }

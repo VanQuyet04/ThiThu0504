@@ -1,8 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { addXeMayAPI, deleteXeMayApi, updateXeMayApi } from "../action/XeMayAction";
 
-//  ở lớp này import các action đã tạo.Ở các trường hợp tùy chọn sẽ gọi ra các case
-
 //1. khai báo khởi tạo state
 const initialState = {
   listXeMay: [] // chứa danh sách công việc
@@ -38,7 +36,7 @@ const xemaySlice = createSlice({
     builder.addCase(updateXeMayApi.fulfilled, (state, action) => {
       // lấy tham số truyền vào
       // console.log(action);
-      const { id, ten_xe_ph35419, mau_sac_ph35419, gia_ban_ph35419, mo_ta_ph35419 } = action.payload;
+      const { id, ten_xe_ph35419, mau_sac_ph35419, gia_ban_ph35419, mo_ta_ph35419, hinh_anh_ph35419 } = action.payload;
       // tìm bản ghi phù hợp với tham số truyền vào
       const xemay = state.listXeMay.find(row => row.id === id);
       // update
@@ -47,6 +45,7 @@ const xemaySlice = createSlice({
         xemay.mau_sac_ph35419 = mau_sac_ph35419;
         xemay.gia_ban_ph35419 = gia_ban_ph35419;
         xemay.mo_ta_ph35419 = mo_ta_ph35419;
+        xemay.hinh_anh_ph35419 = hinh_anh_ph35419
       }
 
     })

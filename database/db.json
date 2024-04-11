@@ -4,13 +4,43 @@
       "id": "3",
       "ten_xe_ph35419": "Xe máy Suzuki Raider",
       "mau_sac_ph35419": "Đen",
-      "gia_ban_ph35419": 35000000,
+      "gia_ban_ph35419": "35000000",
       "mo_ta_ph35419": "Xe côn tay phổ thông, giá thành phải chăng",
-      "hinh_anh_ph35419": "https://example.com/xe_suzuki_raider.jpg"
+      "hinh_anh_ph35419": "file:///data/user/0/com.thithu0504/cache/rn_image_picker_lib_temp_4d1b7802-c30a-4389-a334-79f51f412644.jpg"
+
     },
     {
-      "id": "5129",
-      "ten_xe_ph35419": "Lộc cộc"
+      "id": "c314",
+      "ten_xe_ph35419": "Honda",
+      "mau_sac_ph35419": "Lam",
+      "gia_ban_ph35419": "30000",
+      "mo_ta_ph35419": "Ngon trong tầm giá",
+      "hinh_anh_ph35419": "file:///data/user/0/com.thithu0504/cache/rn_image_picker_lib_temp_4d1b7802-c30a-4389-a334-79f51f412644.jpg"
+
+    },
+    {
+      "id": "381e",
+      "ten_xe_ph35419": "Hhhhhh",
+      "mau_sac_ph35419": "Yygg",
+      "gia_ban_ph35419": "67777",
+      "mo_ta_ph35419": "Hvbbbh",
+      "hinh_anh_ph35419": "file:///data/user/0/com.thithu0504/cache/rn_image_picker_lib_temp_4d1b7802-c30a-4389-a334-79f51f412644.jpg"
+    },
+    {
+      "id": "9ae4",
+      "ten_xe_ph35419": "SH150i",
+      "mau_sac_ph35419": "Trắng",
+      "gia_ban_ph35419": "120000",
+      "mo_ta_ph35419": "Xịn vvv",
+      "hinh_anh_ph35419": "file:///data/user/0/com.thithu0504/cache/rn_image_picker_lib_temp_496cd754-37b5-47bd-875d-cafbe7ea6a7a.jpg"
+    },
+    {
+      "id": "a247",
+      "ten_xe_ph35419": "Xe polyrun",
+      "mau_sac_ph35419": "Vàng",
+      "gia_ban_ph35419": "555566",
+      "mo_ta_ph35419": "Mãc vip pro",
+      "hinh_anh_ph35419": "file:///data/user/0/com.thithu0504/cache/rn_image_picker_lib_temp_ef6e6194-2f75-4e5c-9648-be50d0b62a66.jpg"
     }
   ]
 }
